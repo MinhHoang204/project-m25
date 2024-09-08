@@ -3,7 +3,11 @@ import Login from '@/components/Login'
 import Register from '@/components/Register'
 import Navbar from '@/components/Navbar'
 import Sidebar from '@/components/Sidebar'
-import StatsCard from '@/components/StatsCard'
+import Dashboard from '@/components/Dashboard'
+import AdminMenu from '@/components/AdminMenu'
+import Categories from '@/page/admin/Categories'
+import UserList from '@/components/UserList'
+import AddUserForm from '@/components/AddUserForm'
 export default function page() {
   return (
     <div>page
@@ -11,7 +15,11 @@ export default function page() {
       <Register></Register>
       <Navbar></Navbar>
       <Sidebar></Sidebar>
-      <StatsCard></StatsCard>
+      <Dashboard></Dashboard>
+      <AdminMenu></AdminMenu>
+      <Categories></Categories>
+      <UserList></UserList>
+      <AddUserForm></AddUserForm>
     </div>
   )
 }
