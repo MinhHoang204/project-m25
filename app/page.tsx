@@ -8,6 +8,8 @@ import AdminMenu from '@/components/AdminMenu'
 import Categories from '@/page/admin/Categories'
 import UserList from '@/components/UserList'
 import AddUserForm from '@/components/AddUserForm'
+import ProductList from '@/components/ProductList'
+import ProductForm from '@/components/ProductForm'
 export default function page() {
   return (
     <div>page
@@ -20,6 +22,8 @@ export default function page() {
       <Categories></Categories>
       <UserList></UserList>
       <AddUserForm></AddUserForm>
+      <ProductList></ProductList>
+      <ProductForm></ProductForm>
     </div>
   )
 }
