@@ -1,7 +1,7 @@
 export interface Category {
     id: number;
     name: string;
-  }
+}
   
 let categories: Category[] = [
     { id: 1, name: 'Electronics' },

@@ -1,5 +1,5 @@
 import React, { useState,useEffect } from 'react'
-import { addProduct, updateProduct, Product } from '../services/productService';
+import { addProduct, updateProduct, Product } from '../../services/productService';
 interface Props {
     selectedProduct: Product | null;
     onSave: () => void;

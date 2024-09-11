@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState,useEffect } from 'react';
-import { getProducts, deleteProduct, Product } from '../services/productService';
+import { getProducts, deleteProduct, Product } from '../../services/productService';
 
 interface Props {
     onEdit: (product: Product) => void;
